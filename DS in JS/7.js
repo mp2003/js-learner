@@ -9,7 +9,7 @@ var variableSizedArray = (arr, query) => {
 
 var arr = [
   [1, 5, 4],
-  [1, 2, 8, 9, 3],
+  [1, 2, 8, 9],
 ];
 
 var query = [
