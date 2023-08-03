@@ -1,4 +1,4 @@
-// call
+// apply
 const userMethod = {
     aboutRequest: function (hobby1, hobby2) {
       console.log(`name: ${this.name} age: ${this.age} email: ${this.email} hobby :`+hobby1 +`, `+hobby2 );
@@ -16,4 +16,4 @@ const userMethod = {
     age: 6,
     email:"mno@example.com",
   }
-user.about.call(user2,'guitar','anime');
+user.about.apply(user2,['guitar','anime']);
