@@ -12,6 +12,7 @@ const createUser = (name, age, email) => {
   obj.email = email;
   return obj;
 };
-const user = createUser('milind',21,'m.p6092003@gmail.com');
+const user = createUser('milind',21,'m.p6092003@gmail.com'); 
 console.log(user);
 console.log(user.adresss);
+// 
