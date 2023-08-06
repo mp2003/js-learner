@@ -16,7 +16,7 @@ class Fruits {
 const mango = new Fruits("mango", "hybrid", 110);
 console.log(mango.calculateCost);
 mango.calculateCost = 50;
-
+//console.log(localStorage.getItem)
 
 // class circle {
 //     constructor(radius) {
