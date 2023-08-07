@@ -17,3 +17,4 @@ const userMethod = {
     email:"mno@example.com",
   }
 user.about.apply(user2,['guitar','anime']);
+// milind 
