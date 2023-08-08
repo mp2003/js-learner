@@ -12,6 +12,7 @@ const userMethod = {
     about: userMethod.aboutRequest,
   };
   const username{
+    console.log();
   };
   const user2 ={
     name:"mno",
