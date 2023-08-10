@@ -11,7 +11,7 @@ const userMethod = {
     email: "abc@example.com",
     about: userMethod.aboutRequest,
   };
-  const user1=[``];
+  const user1=[`military`];
   const user2 ={
     name:"mno",
     age: 6,
