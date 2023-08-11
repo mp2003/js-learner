@@ -14,7 +14,6 @@ const userMethod = {
   const user2 ={
     name:"mno",
     age: 6,
-    email:"mno@example.com",
   }
 user.about.apply(user2,['guitar','anime']);
 // milind 
