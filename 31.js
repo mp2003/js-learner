@@ -13,7 +13,6 @@ const userMethod = {
   const user1=[`military`];
   const user2 ={
     name:"mno",
-    age: 6,
   }
 user.about.apply(user2,['guitar','anime']);
 // milind 
