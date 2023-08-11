@@ -11,7 +11,6 @@ const userMethod = {
     email: "abc@example.com",
   };
   const user1=[`military`];
-  const user2 ={
 
 user.about.apply(user2,['guitar','anime']);
 // milind 
