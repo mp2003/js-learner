@@ -13,4 +13,4 @@ const userMethod = {
   const user1=[`military`];
 
 user.about.apply(user2,['guitar','anime']);
-// milin
+// milind pandey 
