@@ -1,2 +1,2 @@
 console.log("hello world");
-// milind pandey first javascript p
+// milind pandey first javascript program
