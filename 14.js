@@ -6,7 +6,7 @@ const user = [
   { userId: 5, username: "milind" },
 ];
 
-//   const [ user1 , user2 , user3 , user4]=user;
+  const [ user1 , user2 , user3 , user4]=user;
   // console.log(user1,user2,user3,user4);
 
 const [{ userId }, , , , { username }] = user;
