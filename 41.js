@@ -12,4 +12,3 @@ const myfunc = function () {
 
 const ans = myfunc();
 ans();
-ans();
