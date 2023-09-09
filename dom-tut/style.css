@@ -115,5 +115,10 @@ body {
 .sign-container{
     min-height: 5vh;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sign-container input{
     
 }
