@@ -8,12 +8,12 @@ body {font-family:poppins;
 }
 .header{
     min-height: 60vh;
-    background: url('./elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
+    background: url('./osman-rana-h8ZvH1Nf7Bk-unsplash.jpg');
     background-position:center ;
     background-size: cover;
     background-repeat:no-repeat ;
     color:white;
-    
+    position: relative;
 }
 
 .container{
@@ -43,4 +43,37 @@ body {font-family:poppins;
     color:white;
     font-size: 1rem;
     font-weight: 500;
+}
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.headline h2{
+    font-size: 1.8rem;
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: #fefffd;
+    border-radius: 0;
+    transition: border-radius 0.5s ease-in-out;
+
+}
+
+.btn-headline:hover,
+.btn-headline:active{
+    transition: border-radius 0.5s ease-out;
+    border-radius: 20px;
 }
