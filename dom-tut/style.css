@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {font-family:poppins;
+}
+.header{
+    min-height: 60vh;
+    background: url('./elliott-engelmann-DjlKxYFJlTc-unsplash.jpg');
+    background-position:center ;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color:white;
+    
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    width: 80%;
+}
+.logo{
+    font-size: 2rem;
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;  
+}
+
+.nav-items{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
