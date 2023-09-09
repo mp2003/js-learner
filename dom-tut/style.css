@@ -1,86 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body {font-family:poppins;
+body {
+  font-family: poppins;
 }
-.header{
-    min-height: 60vh;
-    background: url('./osman-rana-h8ZvH1Nf7Bk-unsplash.jpg');
-    background-position:center ;
-    background-size: cover;
-    background-repeat:no-repeat ;
-    color:white;
-    position: relative;
-}
-
-.container{
-    max-width: 1800px;
-    margin: auto;
-    width: 80%;
-}
-.logo{
-    font-size: 2rem;
-}
-.nav{
-    min-height: 8vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1rem;  
+.header {
+  min-height: 60vh;
+  background: url("./osman-rana-h8ZvH1Nf7Bk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
 }
 
-.nav-items{
-    display: flex;
-    width: 40%;
-    justify-content: space-around;
-    list-style: none;
+.container {
+  max-width: 1800px;
+  margin: auto;
+  width: 80%;
 }
-.nav-items a{
-    text-decoration: none;
-    color:white;
-    font-size: 1rem;
-    font-weight: 500;
+.logo {
+  font-size: 2rem;
 }
-.headline{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color: white;
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
 }
-.headline h2{
-    font-size: 1.8rem;
-}
-.btn{
-    display: inline-block;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-.btn-headline{
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background: #fefffd;
-    border-radius: 0;
-    transition: border-radius 0.5s ease-in-out;
 
+.nav-items {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.headline h2 {
+  font-size: 1.8rem;
+}
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-headline {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: #fefffd;
+  border-radius: 0;
+  transition: border-radius 0.5s ease-in-out;
 }
 
 .btn-headline:hover,
-.btn-headline:active{
-    transition: border-radius 0.5s ease-out;
-    border-radius: 20px;
+.btn-headline:active {
+  transition: border-radius 0.5s ease-out;
+  border-radius: 20px;
 }
 
-.section-todo{
-  margin-top:1rem;
-}
-.section-todo h2{
+.section-todo {
+  margin-top: 5rem;
+  /* border: red 1px solid; */
   text-align: center;
+}
+.todo-form{
+    margin-top: 1.5rem;
+    display: flex;
+    min-height: 5vh;
+    justify-content: space-between;
+}
+.todo-form input{
+    min-height: 100%;
+}
+.todo-form input[type="text"]{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 75%;
+   
+}
+.todo-form input[type='submit']{
+    width: 21%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.signup{
+    text-align: center;
+ border: red 1px solid;
+    margin-top: 5rem;
+}
+.signup-form{
+    margin-top: 1.5rem;
+}
+.sign-container{
+    
 }
