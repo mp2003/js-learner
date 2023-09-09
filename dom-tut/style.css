@@ -113,5 +113,7 @@ body {
     margin-top: 1.5rem;
 }
 .sign-container{
+    min-height: 5vh;
+    display: flex;
     
 }
