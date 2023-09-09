@@ -74,7 +74,7 @@ body {
 
 .btn-headline:hover,
 .btn-headline:active {
-  transition: border-radius 0.5s ease-out;
+  /* transition: border-radius 0.5s ease-out; */
   border-radius: 20px;
 }
 
@@ -105,9 +105,9 @@ body {
 }
 .signup {
   text-align: center;
-  border: red 1px solid;
   margin-top: 5rem;
   padding-top: 1rem;
+  background: beige;
 }
 .signup-form {
   margin: 1.5rem auto;
@@ -118,9 +118,18 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: .5rem;
+  margin: .8rem;
+  font-weight: 500;
 }
 .sign-container input {
-    margin-top: 0.5rem;
-    min-height: 100%;
+    min-height: 3.5vh;
+    font-size: 1rem;
 }
+.btn-submit{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: #fefffd;
+    border-radius: 0;
+    transition: border-radius 0.5s ease-in-out;
+  }
