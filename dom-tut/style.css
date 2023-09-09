@@ -77,3 +77,10 @@ body {font-family:poppins;
     transition: border-radius 0.5s ease-out;
     border-radius: 20px;
 }
+
+.section-todo{
+  
+}
+.section-todo h2{
+  text-align: center;
+}
