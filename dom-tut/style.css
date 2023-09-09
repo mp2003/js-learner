@@ -10,7 +10,7 @@ body {
 .header {
   min-height: 60vh;
   background: url("./osman-rana-h8ZvH1Nf7Bk-unsplash.jpg");
-  background-position:  center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -67,8 +67,8 @@ body {
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
-  background: #fabfb7;
-  
+  background: #ffffff;
+
   border-radius: 2px;
   transition: border-radius 0.5s ease-in-out;
 }
@@ -106,15 +106,19 @@ body {
   background: #04181f;
   color: white;
   outline: none;
-  border:none
+  border: none;
+  border-radius: 2px;
+  transition: border-radius 0.5s ease-in-out;
+}
+.todo-form input[type="submit"]:hover {
+  border-radius: 20px;
 }
 .signup {
   text-align: center;
   margin: 5rem auto;
-  padding: 1rem ;
+  padding: 1rem;
   background: rgba(129, 129, 122, 0.15);
-  border-radius: 10px ;
-
+  border-radius: 10px;
 }
 .signup-form {
   margin: 1.5rem auto;
@@ -125,19 +129,22 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: .8rem;
+  margin: 0.8rem;
   font-weight: 500;
 }
 .sign-container input {
-    min-height: 3.5vh;
-    font-size: 1rem;
+  min-height: 3.5vh;
+  font-size: 1rem;
 }
-.btn-submit{
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background: #04181f;
-    color: #fefffd;
-    border-radius: 0;
-    transition: border-radius 0.5s ease-in-out;
-  }
+.btn-submit {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: #04181f;
+  color: #fefffd;
+  border-radius: 0;
+  transition: border-radius 0.5s ease-in-out;
+}
+.btn-submit:hover {
+  border-radius: 20px;
+}
