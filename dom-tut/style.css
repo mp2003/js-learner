@@ -10,7 +10,7 @@ body {
 .header {
   min-height: 60vh;
   background: url("./osman-rana-h8ZvH1Nf7Bk-unsplash.jpg");
-  background-position: center;
+  background-position:  center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
 }
 
 .nav-items {
@@ -67,8 +67,9 @@ body {
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
-  background: #fefffd;
-  border-radius: 0;
+  background: #fabfb7;
+  
+  border-radius: 2px;
   transition: border-radius 0.5s ease-in-out;
 }
 
@@ -102,12 +103,18 @@ body {
   width: 21%;
   font-size: 1rem;
   font-weight: 700;
+  background: #04181f;
+  color: white;
+  outline: none;
+  border:none
 }
 .signup {
   text-align: center;
-  margin-top: 5rem;
-  padding-top: 1rem;
-  background: beige;
+  margin: 5rem auto;
+  padding: 1rem ;
+  background: rgba(129, 129, 122, 0.15);
+  border-radius: 10px ;
+
 }
 .signup-form {
   margin: 1.5rem auto;
@@ -129,7 +136,8 @@ body {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     font-weight: 700;
-    background: #fefffd;
+    background: #04181f;
+    color: #fefffd;
     border-radius: 0;
     transition: border-radius 0.5s ease-in-out;
   }
