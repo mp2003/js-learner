@@ -51,7 +51,7 @@ body {
 }
 .nav-items a:hover{
     font-size: 1.2rem;
-    border: #fefffd 1px solid;
+    /* border: #fefffd 1px solid; */
 }
 .headline {
   position: absolute;
