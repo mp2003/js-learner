@@ -37,13 +37,21 @@ body {
   display: flex;
   width: 40%;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
+  /* min-height: 8vh; */
 }
 .nav-items a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
   font-weight: 500;
+  
+  transition: font-size 0.4s ease-in-out;
+}
+.nav-items a:hover{
+    font-size: 1.2rem;
+    border: #fefffd 1px solid;
 }
 .headline {
   position: absolute;
