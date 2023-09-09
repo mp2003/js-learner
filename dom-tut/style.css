@@ -83,42 +83,44 @@ body {
   /* border: red 1px solid; */
   text-align: center;
 }
-.todo-form{
-    margin-top: 1.5rem;
-    display: flex;
-    min-height: 5vh;
-    justify-content: space-between;
+.todo-form {
+  margin-top: 1.5rem;
+  display: flex;
+  min-height: 5vh;
+  justify-content: space-between;
 }
-.todo-form input{
+.todo-form input {
+  min-height: 100%;
+}
+.todo-form input[type="text"] {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 75%;
+}
+.todo-form input[type="submit"] {
+  width: 21%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.signup {
+  text-align: center;
+  border: red 1px solid;
+  margin-top: 5rem;
+  padding-top: 1rem;
+}
+.signup-form {
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
+.sign-container {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: .5rem;
+}
+.sign-container input {
+    margin-top: 0.5rem;
     min-height: 100%;
-}
-.todo-form input[type="text"]{
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    width: 75%;
-   
-}
-.todo-form input[type='submit']{
-    width: 21%;
-    font-size: 1rem;
-    font-weight: 700;
-}
-.signup{
-    text-align: center;
- border: red 1px solid;
-    margin-top: 5rem;
-}
-.signup-form{
-    margin-top: 1.5rem;
-}
-.sign-container{
-    min-height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.sign-container input{
-    
 }
