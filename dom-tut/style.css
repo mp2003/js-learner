@@ -148,7 +148,7 @@ body {
 .sign-container input {
   min-height: 3.5vh;
   font-size: 1rem;
-  border: #04181f solid 1px;
+  border: #04181f34 solid 1px;
   border-radius: 2px;
 }
 .btn-submit {
@@ -160,6 +160,7 @@ body {
   border-radius: 2px;
   transition: border-radius 0.5s ease-in-out;
 }
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:active {
   border-radius: 20px;
 }
