@@ -3,4 +3,4 @@ const rootNode = document.getRootNode();
 let childNode = rootNode.childNodes[0];
 // console.log(childNode.childNodes);
 const head = childNode.childNodes[0];
-console.log(head.childNodes);
+// console.log(head.childNodes);
