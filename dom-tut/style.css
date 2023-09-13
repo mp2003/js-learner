@@ -26,8 +26,8 @@ body {
   font-size: 2rem;
   transition: font-size 0.2s ease-in-out;
 }
-.logo:hover{
-    font-size: 2.2rem;
+.logo:hover {
+  font-size: 2.2rem;
 }
 .nav {
   min-height: 8vh;
@@ -50,13 +50,13 @@ body {
   color: white;
   font-size: 1rem;
   font-weight: 500;
-  
+
   transition: font-size 0.2s ease-in-out;
 }
-.nav-items a:hover{
-    font-size: 1.2rem;
-    text-decoration: underline;
-    /* border: #fefffd 1px solid; */
+.nav-items a:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  /* border: #fefffd 1px solid; */
 }
 .headline {
   position: absolute;
@@ -125,6 +125,20 @@ body {
 }
 .todo-form input[type="submit"]:hover {
   border-radius: 20px;
+}
+
+.todo-list {
+  font-size: 1.2rem;
+  list-style: none;
+  background: #04181f;
+  color: #fefffd;
+  text-align: left;
+  border-radius: 10px;
+}
+.todo-list li {
+  text-transform: capitalize;
+  padding: 0.7rem;
+  margin-top: 1rem;
 }
 .signup {
   text-align: center;
