@@ -130,15 +130,16 @@ body {
 .todo-list {
   font-size: 1.2rem;
   list-style: none;
-  background: #04181f;
-  color: #fefffd;
   text-align: left;
-  border-radius: 10px;
 }
 .todo-list li {
   text-transform: capitalize;
+  background: #04181f;
+  color: #fefffd;
+  border-radius: 10px;
   padding: 0.7rem;
   margin-top: 1rem;
+
 }
 .signup {
   text-align: center;
@@ -178,4 +179,5 @@ body {
 .btn-submit:active {
   border-radius: 20px;
 }
-/* milind*/
+/* milind */
+/* pandey */
