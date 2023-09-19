@@ -28,11 +28,12 @@ button{
     border: none;
     outline: none;
     background: #a5a5a563;
-    transition: background,color, 700ms ease-in-out;
+    transition: background,color, 500ms ease-in-out;
     
 }
 
 button:hover{
+    margin-top: 3rem;
     background: #1137ddd0;
     color:whitesmoke;
     box-shadow: 10px 10px 10px 3px #0797da81;
