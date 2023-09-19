@@ -37,9 +37,9 @@ button{
 
 button:hover{
     margin-top: 3rem;
-    padding: 1.8rem 2.8rem;
-    background: #1137ddd0;
+    /* padding: 1.8rem 2.8rem; */
+    /* background: #1137ddd0; */
     color:whitesmoke;
-    box-shadow: 10px 10px 10px 3px #0797da81;
+    /* box-shadow: 10px 10px 10px 3px #0797da81; */
     font-weight: bold;
 }
