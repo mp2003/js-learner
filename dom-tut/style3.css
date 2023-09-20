@@ -17,7 +17,7 @@ main {
 .box {
   min-width: 100px;
   min-height: 100px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-weight: bold;
   padding: 4rem;
 }
