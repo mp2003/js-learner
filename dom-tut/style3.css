@@ -7,6 +7,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
   text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.753);
 }
 main {
   display: flex;
@@ -20,6 +21,8 @@ main {
   /* border: 1px solid red; */
   font-weight: bold;
   padding: 4rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
 }
 .grandParent{
     background: black;
@@ -31,4 +34,16 @@ main {
 }
 .child{
     background: cadetblue;
+    color: whitesmoke;
+    margin-top: 1rem;
+}
+.grandParent:hover{
+    box-shadow: 5px 5px 25px 10px rgb(120, 4, 197);
+}
+
+.parent:hover{
+    box-shadow: 5px 5px 25px 10px rgba(4, 136, 197, 0.842);
+}
+.child:hover{
+    box-shadow: 5px 5px 25px 10px rgb(197, 184, 4);
 }
