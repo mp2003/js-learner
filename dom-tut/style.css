@@ -138,9 +138,24 @@ body {
   color: #fefffd;
   border-radius: 10px;
   padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 1rem;
 }
-
+.todo-btn{
+  /* min-height: ; */
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+.todo-btn:hover{
+  box-shadow:0px 0px 4px 2px purple;
+  margin-right: 1rem;
+}
 
 .signup {
   text-align: center;
