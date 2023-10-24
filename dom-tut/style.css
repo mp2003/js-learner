@@ -90,6 +90,7 @@ body {
 .btn-headline:active {
   /* transition: border-radius 0.5s ease-out; */
   border-radius: 20px;
+  /* transform: rotate(180deg); */
 }
 
 .section-todo {
@@ -121,7 +122,7 @@ body {
   outline: none;
   border: none;
   border-radius: 2px;
-  transition: border-radius 0.5s ease-in-out;
+  transition: border-radius 0.2s ease-in-out;
 }
 .todo-form input[type="submit"]:hover {
   border-radius: 20px;
@@ -194,7 +195,7 @@ body {
   background: #04181f;
   color: #fefffd;
   border-radius: 2px;
-  transition: border-radius 0.5s ease-in-out;
+  transition: border-radius 0.2s ease-in-out;
 }
 .btn-submit:hover,
 .btn-submit:active {
