@@ -13,7 +13,7 @@ xhr.onreadystatechange = () => {
     xhr.onload = () => {
 
         const response = xhr.response;
-        // console.log(response);s
+        // console.log(response);
         const data = JSON.parse(response);
         console.log(data);
     }
