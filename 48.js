@@ -7,6 +7,8 @@ function promise() {
         });
     }, 2000);
 }
-promise().then((flag) => {
-    console.log(flag);
-}).catch((err) => { err });
+
+
+promise()
+    .then((flag) => console.log(flag))
+    .catch((err) => console.error(err));
