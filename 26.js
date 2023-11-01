@@ -1,3 +1,4 @@
+console.log("script ready");
 const person = {
   name: "John",
   id: 1,

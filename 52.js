@@ -1,5 +1,3 @@
-console.log("xhr ajax request");
-
 console.log("srcipt started");
 const URL = "https://jsonplaceholder.typicode.com/posts";
 function myPromise(method, URL) {
