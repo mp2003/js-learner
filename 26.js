@@ -6,3 +6,7 @@ const person = {
 const extraInfo = new Map();
 extraInfo.set(person, { age: 15, phone: 15236 });
 console.log(extraInfo.get(person));
+console.log("script end");
+console.log('====================================');
+console.log();
+console.log('====================================');
