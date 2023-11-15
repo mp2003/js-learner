@@ -7,3 +7,4 @@ function func() {
 }
 const a = func();
 console.log("a()", a());
+//hello
