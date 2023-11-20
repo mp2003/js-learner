@@ -1,4 +1,4 @@
-const heading1 = document.querySelector(".heading1");
+const heading = document.querySelector(".heading1");
 const heading2 = document.querySelector(".heading2");
 const heading3 = document.querySelector(".heading3");
 const heading4 = document.querySelector(".heading4");
