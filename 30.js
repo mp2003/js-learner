@@ -1,4 +1,4 @@
-// call me
+// call met
 const userMethod = {
     aboutRequest: function (hobby1, hobby2) {
       console.log(`name: ${this.name} age: ${this.age} email: ${this.email} hobby :`+hobby1 +`, `+hobby2 );
