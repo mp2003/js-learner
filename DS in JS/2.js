@@ -1,4 +1,4 @@
-// stack implementation
+// stack implementation using the array
 
 function stack() {
   var collection = [];
