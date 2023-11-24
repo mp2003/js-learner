@@ -1,5 +1,5 @@
 // sets implementation
-
+//----------------------------------------------------------------
 function MySets() {
   var collection = [];
 
