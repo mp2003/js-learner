@@ -16,7 +16,7 @@ function PriorityQueue() {
   };
 
   this.enQueue = (element) => {
-    if (this.isEmpty) collection.push(element);
+    if (this.isEmpty()) collection.push(element);
     else {
       var added = false;
       for (var i = 0; i < this.size(); i++) {
@@ -46,3 +46,9 @@ MyQueue.enQueue(["hell", 4]);
 MyQueue.enQueue(["bii", 3]);
 
 console.log(MyQueue.print());
+
+console.log(MyQueue.deQueue());
+
+console.log(MyQueue.front());
+
+console.log(MyQueue.size());
