@@ -29,3 +29,14 @@ function MyQueue() {
 }
 
 var newQueue = new MyQueue();
+newQueue.enQueue(1);
+newQueue.enQueue(2);
+newQueue.enQueue(3);
+
+console.log(newQueue.print());
+
+console.log(newQueue.deQueue());
+
+console.log(newQueue.print());
+
+console.log(newQueue.size());
