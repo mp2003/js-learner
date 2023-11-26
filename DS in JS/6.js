@@ -1,4 +1,4 @@
-// priority queue implementations
+// priority queue implementation
 
 function PriorityQueue() {
   var collection = [];
