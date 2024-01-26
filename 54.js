@@ -15,19 +15,27 @@ function debounce(cb, delay) {
 }
 
 const updateDebounce = debounce((text) => {
-  Debounce.textContent = text;
+  incrementCounter(Debounce);
 }, 500);
 
 const updateThrottle = throttle((text) => {
-  Throttle.textContent = text;
-}, 1000);
+  incrementCounter(Throttle);
+}, 100);
 
-Input.addEventListener("input", (e) => {
-  Default.textContent = e.target.value;
-  updateDebounce(e.target.value);
-  updateThrottle(e.target.value);
+// Input.addEventListener("input", (e) => {
+//   Default.textContent = e.target.value;
+//   updateDebounce(e.target.value);
+//   updateThrottle(e.target.value);
+// });
+document.addEventListener("mousemove", (e) => {
+  incrementCounter(Default);
+  updateDebounce();
+  updateThrottle();
 });
 
+function incrementCounter(element) {
+  element.textContent = (Number(element.innerText) || 0) + 1;
+}
 function throttle(cb, delay) {
   let shouldWait = false;
   let waitingArgs;
@@ -36,6 +44,7 @@ function throttle(cb, delay) {
     if (waitingArgs === null) shouldWait = false;
     else {
       cb(...waitingArgs);
+      waitingArgs = null;
       setTimeout(timeout, delay);
     }
   };
