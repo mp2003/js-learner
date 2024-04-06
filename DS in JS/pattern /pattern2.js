@@ -14,6 +14,20 @@ const ladder = (num) => {
     }
     console.log(str);
   }
+
+  let str = "";
+  for (let i = 0; i <= num; i++) {
+    str += "*";
+  }
+  console.log(str);
+
+  for (let i = num; i >= 0; i--) {
+    let str = "";
+    for (let j = 0; j < i; j++) {
+      str += "*";
+    }
+    console.log(str);
+  }
 };
 
 r1.question("How many lines of Ladder : ", (a) => {
