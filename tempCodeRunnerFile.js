@@ -1,1 +1,2 @@
-x1 + x2 ? 2 == 0 && y1 + y2 % 2 == 0
+
+    console.log('res:', res, 'resLen:', resLen, s.length);
