@@ -1,29 +1,19 @@
 /**
- * @param {string} blocks
- * @param {number} k
+ * @param {ListNode} head
  * @return {number}
  */
-var minimumRecolors = function (s, k) {
-    let map = new Map();
-    map.set("B", 0);
-    map.set("W", 0);
-    let j = 0, i = 0, ans = Infinity;
-    while (j < s.length) {
+var getDecimalValue = function (head) {
+    let arr = [];
+    if (head === null || head.next === null)
+        return 0;
+    while (head) {
+        arr.push(head.val);
+        console.log(head.val);
 
-        map.set(s[j], (map.get(s[j]) || 0) + 1);
-        if (j - i + 1 === k) {
-            // console.log(map);
-            ans = Math.min(ans, map.get('W'));
-            map.set(s[i], map.get(s[i]) - 1)
-            i++;
-        }
-        j++;
+        head = head.next;
     }
-    console.log(ans);
+    console.log(arr);
 
-    return ans
 };
 
-minimumRecolors("WBBWWBBWBW", 7)
-minimumRecolors("WBWBBBW", 2)
-minimumRecolors("BB", 1)
+getDecimalValue([1, 0, 1])
